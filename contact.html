@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Weavera Lab | Wavera Coder</title>
+    <meta name="description" content="Entre em contato com a equipe da Weavera Lab. Estamos prontos para responder suas dúvidas sobre o Wavera Coder e ajudar a transformar suas ideias em aplicações funcionais.">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="images/favicon.ico">
+    <!-- Font Awesome para ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">
+                    <a href="index.html">
+                        <!-- Placeholder para logo -->
+                        <div style="background-color: var(--weavera-blue); color: white; padding: 8px 16px; border-radius: var(--border-radius-md);">
+                            <span style="font-weight: 700;">Weavera</span><span style="color: var(--wavera-teal);">Lab</span>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="mobile-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+                
+                <ul class="nav-menu">
+                    <li class="nav-item"><a href="index.html" class="nav-link">Início</a></li>
+                    <li class="nav-item"><a href="about.html" class="nav-link">Sobre</a></li>
+                    <li class="nav-item"><a href="product.html" class="nav-link">Wavera Coder</a></li>
+                    <li class="nav-item"><a href="how-it-works.html" class="nav-link">Como Funciona</a></li>
+                    <li class="nav-item"><a href="use-cases.html" class="nav-link">Casos de Uso</a></li>
+                    <li class="nav-item"><a href="pricing.html" class="nav-link">Planos</a></li>
+                    <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
+                    <li class="nav-item"><a href="contact.html" class="nav-link active nav-cta">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-pattern"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col col-12 col-md-6 hero-content">
+                    <h1>Entre em Contato</h1>
+                    <p>Estamos prontos para responder suas dúvidas e ajudar a transformar suas ideias em aplicações funcionais. Preencha o formulário ou use um de nossos canais de contato.</p>
+                </div>
+                <div class="col col-12 col-md-6 hero-image">
+                    <!-- Placeholder para imagem hero -->
+                    <div style="background-color: rgba(255, 255, 255, 0.1); height: 350px; border-radius: var(--border-radius-lg); display: flex; align-items: center; justify-content: center;">
+                        <span style="color: white;">Imagem: Equipe de Suporte</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col col-12 col-md-8 animate-on-scroll">
+                    <h2 class="section-title">Envie uma Mensagem</h2>
+                    
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Nome Completo*</label>
+                            <input type="text" id="name" name="name" class="form-control" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email*</label>
+                            <input type="email" id="email" name="email" class="form-control" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone">Telefone</label>
+                            <input type="tel" id="phone" name="phone" class="form-control">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="company">Empresa</label>
+                            <input type="text" id="company" name="company" class="form-control">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">Assunto*</label>
+                            <select id="subject" name="subject" class="form-control" required>
+                                <option value="">Selecione um assunto</option>
+                                <option value="sales">Informações sobre planos</option>
+                                <option value="support">Suporte técnico</option>
+                                <option value="partnership">Parcerias</option>
+                                <option value="press">Imprensa</option>
+                                <option value="other">Outro</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Mensagem*</label>
+                            <textarea id="message" name="message" class="form-control" rows="5" required></textarea>
+                        </div>
+                        
+                        <div class="form-group">
+                            <div class="checkbox">
+                                <input type="checkbox" id="privacy" name="privacy" required>
+                                <label for="privacy">Concordo com a <a href="privacy.html">Política de Privacidade</a>*</label>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+                        </div>
+                    </form>
+                </div>
+                
+                <div class="col col-12 col-md-4 animate-on-scroll">
+                    <div class="contact-info">
+                        <h3>Informações de Contato</h3>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Email</h4>
+                                <p><a href="mailto:contato@weavera.lab">contato@weavera.lab</a></p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Telefone</h4>
+                                <p><a href="tel:+551134567890">+55 (11) 3456-7890</a></p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Endereço</h4>
+                                <p>Av. Paulista, 1000<br>Bela Vista, São Paulo - SP<br>CEP 01310-100</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Horário de Atendimento</h4>
+                                <p>Segunda a Sexta: 9h às 18h<br>Sábado: 9h às 13h</p>
+                            </div>
+                        </div>
+                        
+                        <div class="social-links mt-4">
+                            <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">Onde Estamos</h2>
+            
+            <!-- Placeholder para mapa -->
+            <div style="background-color: var(--light-gray); height: 400px; border-radius: var(--border-radius-lg); display: flex; align-items: center; justify-content: center;">
+                <span>Mapa: Localização da Weavera Lab</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="section features">
+        <div class="container">
+            <h2 class="section-title">Perguntas Frequentes</h2>
+            
+            <div class="faq">
+                <div class="faq-item">
+                    <div class="faq-question">Quanto tempo leva para receber uma resposta?</div>
+                    <div class="faq-answer">
+                        <p>Respondemos a todas as mensagens em até 24 horas úteis. Para clientes com planos Business e Enterprise, oferecemos tempos de resposta ainda mais rápidos conforme o SLA contratado.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">Oferecem demonstrações personalizadas?</div>
+                    <div class="faq-answer">
+                        <p>Sim, oferecemos demonstrações personalizadas para empresas interessadas em conhecer melhor o Wavera Coder. Basta selecionar "Informações sobre planos" no formulário de contato e mencionar seu interesse em uma demonstração.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">Como posso obter suporte técnico?</div>
+                    <div class="faq-answer">
+                        <p>Clientes com planos ativos podem obter suporte técnico através do portal do cliente, email de suporte ou chat. O nível de suporte varia conforme o plano contratado. Para questões urgentes, clientes Business e Enterprise também têm acesso a suporte por telefone.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">Vocês oferecem treinamento para equipes?</div>
+                    <div class="faq-answer">
+                        <p>Sim, oferecemos sessões de treinamento personalizadas para equipes que desejam aproveitar ao máximo o Wavera Coder. Esses treinamentos podem ser realizados remotamente ou presencialmente, dependendo da localização e necessidades específicas.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col col-12 col-md-4 footer-col">
+                    <div class="footer-logo">
+                        <!-- Placeholder para logo -->
+                        <div style="background-color: white; color: var(--weavera-blue); display: inline-block; padding: 8px 16px; border-radius: var(--border-radius-md);">
+                            <span style="font-weight: 700;">Weavera</span><span style="color: var(--wavera-teal);">Lab</span>
+                        </div>
+                    </div>
+                    <p>Transformando ideias em código através da inteligência artificial. Nossa missão é democratizar o desenvolvimento de software.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                
+                <div class="col col-12 col-md-2 footer-col">
+                    <h4>Empresa</h4>
+                    <ul class="footer-links">
+                        <li class="footer-link"><a href="about.html">Sobre Nós</a></li>
+                        <li class="footer-link"><a href="blog.html">Blog</a></li>
+                        <li class="footer-link"><a href="careers.html">Carreiras</a></li>
+                        <li class="footer-link"><a href="contact.html">Contato</a></li>
+                    </ul>
+                </div>
+                
+                <div class="col col-12 col-md-2 footer-col">
+                    <h4>Produto</h4>
+                    <ul class="footer-links">
+                        <li class="footer-link"><a href="product.html">Wavera Coder</a></li>
+                        <li class="footer-link"><a href="how-it-works.html">Como Funciona</a></li>
+                        <li class="footer-link"><a href="use-cases.html">Casos de Uso</a></li>
+                        <li class="footer-link"><a href="pricing.html">Planos</a></li>
+                    </ul>
+                </div>
+                
+                <div class="col col-12 col-md-2 footer-col">
+                    <h4>Recursos</h4>
+                    <ul class="footer-links">
+                        <li class="footer-link"><a href="documentation.html">Documentação</a></li>
+                        <li class="footer-link"><a href="tutorials.html">Tutoriais</a></li>
+                        <li class="footer-link"><a href="faq.html">FAQ</a></li>
+                        <li class="footer-link"><a href="community.html">Comunidade</a></li>
+                    </ul>
+                </div>
+                
+                <div class="col col-12 col-md-2 footer-col">
+                    <h4>Legal</h4>
+                    <ul class="footer-links">
+                        <li class="footer-link"><a href="terms.html">Termos de Uso</a></li>
+                        <li class="footer-link"><a href="privacy.html">Privacidade</a></li>
+                        <li class="footer-link"><a href="cookies.html">Cookies</a></li>
+                        <li class="footer-link"><a href="security.html">Segurança</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="copyright">
+                    &copy; 2025 Weavera Lab. Todos os direitos reservados.
+                </div>
+                <div>
+                    <a href="mailto:contato@weavera.lab" style="color: rgba(255, 255, 255, 0.7); text-decoration: none; margin-right: 1rem;">
+                        <i class="fas fa-envelope"></i> contato@weavera.lab
+                    </a>
+                    <a href="tel:+551134567890" style="color: rgba(255, 255, 255, 0.7); text-decoration: none;">
+                        <i class="fas fa-phone"></i> +55 (11) 3456-7890
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
